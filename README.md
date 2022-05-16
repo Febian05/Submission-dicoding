@@ -5,7 +5,7 @@ Domain proyek yang dipilih dalam proyek _machine learning_ ini adalah mengenai P
 
 ### Latar Belakang
   
-Mobil bekas adalah mobil yang dijual belikan setelah digunakan oleh orang lain atau mobil yang bukan baru atapun merupakan mobil yang telah digunakan sebagai simulasi pada calon pembeli atau yang lebih dikenal sebagai test drive. Harga mobil bekas di pasaran sendiri bukan hahnya bergantung pada merek brand tertentu namun faktor lain yang paling krusial adalah seberapa lama mobil itu digunakan. Hal tersebut diketahui dengan berapa kali mobil tersebut diperjual belikan ke pembeli berikutnya sehingga dapat diketahui dengan melihat seberapa besar angka kilo meter pada dashborad mobil. Fitur lain seperti jenis transmisi, bahan bakar juga mempengaruhi besar kecilnya harga penjualan mobil bekas. Dalam proses transaksi mobil bekas juga bisa membuat harga semakin mahal atau murah, Semakin tempat pembelian mobil itu terpercaya maka harga mobil juga mahal berbeda jika membeli mobil bekas dengan melakukan transaksi antar individu yang akan menjual mobilnya sendiri. Di masa yang akan datang perkembangan mobil keluaran baru terus mengalami peningkatn dan tentunya jumlah mobil bekas yang dijual di pasaran akan semakin banyak. Tentu hal tersebut bisa menjadi alternatif bagi calon pembeli mobil yang ingin mendapatkan mobil dengan harga yang lebih murah ketimbang beli yang baru.
+Mobil bekas adalah mobil yang dijual belikan setelah digunakan oleh orang lain atau mobil yang bukan baru atau merupakan mobil yang telah digunakan sebagai simulasi pada calon pembeli atau yang lebih dikenal sebagai test drive. Harga mobil bekas di pasaran sendiri bukan hanya bergantung pada merek brand tertentu namun faktor lain yang paling krusial adalah seberapa lama mobil itu digunakan. Hal tersebut diketahui dengan berapa kali mobil tersebut diperjual belikan ke pembeli berikutnya sehingga dapat diketahui dengan melihat seberapa besar angka kilo meter pada dashboard mobil. Fitur lain seperti jenis transmisi, bahan bakar juga mempengaruhi besar kecilnya harga penjualan mobil bekas. Dalam proses transaksi mobil bekas juga bisa membuat harga semakin mahal atau murah, Semakin terpercaya tempat pembelian mobil itu  maka harga mobil akan mahal, berbeda jika membeli mobil bekas dengan melakukan transaksi antar individu yang menjual mobilnya sendiri. Di masa yang akan datang perkembangan mobil keluaran baru terus mengalami peningkatan dan tentunya jumlah mobil bekas yang dijual di pasaran akan semakin banyak. Tentu hal tersebut bisa menjadi alternatif bagi calon pembeli mobil yang ingin mendapatkan mobil dengan harga yang lebih murah ketimbang beli yang baru.
 
 Berdasarkan permasalahan di atas, maka pada proyek ini akan dibangun suatu model _machine learning_ untuk memprediksi harga pasar mobil bekas dengan berbagai pertimbangan sperti yang telah disebutkan di atas. Dengan adanya model machine learning ini, di harapkan dapat membantu dan memudahkan calon pembeli mobil untuk memberikan estimasi harga yang perlu disiapkan sebelum mebeli mobil bekas dengan berbagai pertimbangan informasi fitur mobil tersebut dan juga riwayat penggunaan mobil tersebut.
 
@@ -64,6 +64,10 @@ Solusi yang dapat dilakukan untuk memenuhi tujuan dari proyek ini di antaranya:
   - Dari kolom-kolom tersebut terdapat 3 kolom numerik dengan tipe data int64, yaitu `year, selling_price` dan `km_driven
   - Terdapat 5 kolom dengan tipe object yaitu `name, fuel, seller_type, transmission`, dan `owner`
   - Tidak terdapat _missing value_ pada dataset. 
+  
+Untuk penjelasan mengenai variabel-variabel pada dataset dapat dilihat pada poin-poin berikut ini:
+  - new 
+
 
 - **Distribusi Data pada Setiap Fitur**
   <br>Pada kasus ini yang perlu diperhatikan adalah menganalisa apakah terdapat outlier pada data kemudian jika ya maka harus diatasi. Tujuannya adalah untuk menghindari distorsi pada data
